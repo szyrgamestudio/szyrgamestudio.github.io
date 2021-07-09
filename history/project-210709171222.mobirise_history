@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "SZYR GAME STUDIO",
-    "currentPage": "atorth-tales-of-ulkimond.html",
+    "currentPage": "o-nas.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -51,15 +51,14 @@
     "versionPublish": "5.3.10",
     "screenshot": "screenshot.png",
     "favicon": false,
-    "mbrsiteDomain": "yymqnfspr7",
+    "mbrsiteDomain": "bjybeyemak",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "publishChangesOnly": true,
-    "witsec-white-label": true
+    "publishChangesOnly": true
   },
   "pages": {
     "index.html": {
