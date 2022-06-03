@@ -1,0 +1,102 @@
+ .u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("images/SGS2021TT.png");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 100vh;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 700;
+  font-size: 4.5rem;
+  margin: 60px 633px 0 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-weight: 700;
+  font-size: 1.875rem;
+  margin: 21px 1015px 0 0;
+}
+
+.u-section-1 .u-text-3 {
+  font-size: 1.25rem;
+  margin: 20px 1015px 60px 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    margin-right: 433px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 675px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 675px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    margin-right: 213px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 455px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 455px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    margin-right: 33px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 275px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 275px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-1 {
+    font-size: 3.75rem;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 75px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 75px;
+  }
+}.u-section-2 .u-sheet-1 {
+  min-height: 496px;
+}
+
+.u-section-2 .u-text-1 {
+  font-size: 3.75rem;
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 60px auto 0 0;
+}
+
+.u-section-2 .u-custom-html-1 {
+  margin: 20px auto 60px 0;
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-text-1 {
+    font-size: 2.25rem;
+  }
+}
