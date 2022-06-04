@@ -69,15 +69,18 @@
 @media (max-width: 575px) {
   .u-section-1 .u-text-1 {
     font-size: 3.75rem;
+    margin-top: 313px;
     margin-right: 0;
   }
 
   .u-section-1 .u-text-2 {
-    margin-right: 75px;
+    width: auto;
+    margin-right: 0;
   }
 
   .u-section-1 .u-text-3 {
-    margin-right: 75px;
+    width: auto;
+    margin-right: 0;
   }
 } .u-section-2 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("images/0dc28d8eec34c079ac8f3e04e25da49fdff85ae2b8ad14a8802cae695cc9c37dfb04908c4ebcf22dc45a9dfdca38a399e26b938aa41d8bda58d9b5_1280.jpg");
