@@ -102,7 +102,7 @@
 
 .u-section-3 .u-image-1 {
   min-height: 390px;
-  background-image: url("images/SGSLAUNCHER.png");
+  background-image: url("images/SGSClient.png");
   background-position: 50% 50%;
 }
 
@@ -274,6 +274,10 @@
   grid-template-columns: auto auto;
 }
 
+.u-section-5 .u-gallery-item-1 {
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+}
+
 .u-section-5 .u-back-image-1 {
   object-position: 50% 84.34%;
 }
@@ -283,14 +287,26 @@
   padding: 20px;
 }
 
+.u-section-5 .u-gallery-item-2 {
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+}
+
 .u-section-5 .u-over-slide-2 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
   padding: 20px;
 }
 
+.u-section-5 .u-gallery-item-3 {
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+}
+
 .u-section-5 .u-over-slide-3 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
   padding: 20px;
+}
+
+.u-section-5 .u-gallery-item-4 {
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
 }
 
 .u-section-5 .u-back-image-4 {
