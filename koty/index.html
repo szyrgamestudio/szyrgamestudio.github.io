@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+   <head>
+      <title>W. Zaborowska - Rasy Kotów</title>
+      <link rel="icon" type="image/x-icon" href="https://icons-for-free.com/download-icon-cat+icon-1320190750608450315_512.icns">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <header id="header">
+         <h2>Wiktoria Zaborowska - Rasy Kotów</h2>
+      </header>
+
+      <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:50px;margin-bottom: 50px;">
+
+         <section class="w3-row-padding w3-padding-16 w3-center" id="koty1">
+            <div class="w3-quarter">
+               <img src="images/ringtail.png" alt="ringtail" style="width:100%" height="180px">
+               <h3>AMERYKAŃSKI RINGTAIL (AMERICAN RINGTAIL)</h3>
+               <p>Kot zakręcony jak świński ogonek. Nowa rasa kota powstała w latach 90 XX wieku wskutek naturalnej mutacji genetycznej.
+               </p>
+            </div>
+            <div class="w3-quarter">
+               <img src="images/rys.png" alt="rys" style="width:100%" height="180px">
+               <h3>AMERYKAŃSKI RYŚ (AMERICAN LYNX)</h3>
+               <p>Amerykański ryś to domowy kot o wyglądzie miniaturowego rysia. Jest to niezwykle rzadka rasa pochodząca z Ameryki Północnej.</p>
+            </div>
+            <div class="w3-quarter">
+               <img src="images/mist.png" alt="mist" style="width:100%" height="180px">
+               <h3>AUSTRALIAN MIST</h3>
+               <p>Australian mist to jedyna rasa kotów, jaką wyhodowano w Australii. Australijczycy skracają jej nazwę do OzMist.</p>
+            </div>
+            <div class="w3-quarter">
+               <img src="images/havanabrown.png" alt="havanabrown" style="width:100%" height="180px">
+               <h3>HAVANA BROWN</h3>
+               <p>Havana Brown jest jedyną rasą kotów, w której wszystko – poza kolorem tęczówek – jest brązowe.</p>
+            </div>
+         </section>
+
+         <section class="w3-row-padding w3-padding-16 w3-center" id="koty2">
+            <div class="w3-quarter">
+               <img src="images/manee.png" alt="manee" style="width:100%" height="180px">
+               <h3>KHAO MANEE</h3>
+               <p>„Khao manee” oznacza „biały diament”. Kot tej rasy prawie zawsze jest biały, bardzo często ma oczy w różnym kolorze.</p>
+            </div>
+            <div class="w3-quarter">
+               <img src="images/korat.png" alt="korat" style="width:100%" height="180px">
+               <h3>KORAT</h3>
+               <p>Rasa korat cechuje się przyjacielskim i niezwykle rodzinnym charakterem, łagodnym usposobieniem, a także ogólną ciekawością i skłonnością do zabawy.</p>
+            </div>
+            <div class="w3-quarter">
+               <img src="images/abyssinian.png" alt="abyssinian" style="width:100%" height="180px">
+               <h3>KOT ABISYŃSKI (ABYSSINIAN)</h3>
+               <p>Kot abisyński jest elegancki i pełen gracji, a do tego jest obdarzony silnym charakterem. Przypomina wyglądem miniaturową pumę.</p>
+            </div>
+            <div class="w3-quarter">
+               <img src="images/aphrodite.png" alt="aphrodite" style="width:100%" height="180px">
+               <h3>KOT AFRODYTY (APHRODITE CAT)</h3>
+               <p>Kot Afrodyty to prawdopodobnie najstarsza europejska rasa kotów. Pochodzi z Cypru, gdzie powstała bez ingerencji człowieka.
+               </p>
+            </div>
+         </section>
+      </div>
+
+      <article class="w3-container w3-padding-32 w3-center">
+         <div class="w3-padding-32">
+            <h4><b>Wiktoria Zaborowska</b></h4>
+            <h6><i>O mnie i o mojej pasji do kotów</i></h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+               <br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+         </div>
+         </div>
+      </article>
+      <footer>
+         <p>Rasy Kotów - Wykonawca Wiktoria Zaborowska</p>
+      </footer>
+      </div>
+
+      <script>
+         // Gdy użytkownik przewinie stronę, wykonaj polecenie stickyHeader
+         window.onscroll = function() {stickyHeader()};
+         
+         var header = document.getElementById("header");
+         var sticky = header.offsetTop;
+         
+         //Dodaj klasę "sticky" do nagłówka po osiągnięciu pozycji przewijania. Usuń klasę "sticky" po opuszczeniu pozycji przewijania
+         function stickyHeader() {
+           if (window.pageYOffset > sticky) {
+             header.classList.add("sticky");
+           } else {
+             header.classList.remove("sticky");
+           }
+         }
+      </script>
+   </body>
+</html>

@@ -1,0 +1,45 @@
+body,h1,h2,h3,h4,h5,h6 {
+	font-family: "Karma", sans-serif
+}
+
+body{
+    background-color: #006E51;
+}
+
+header {
+	text-align: center;
+	padding: 8px 16px;
+	background: #00685C;
+	color: #f1f1f1;
+}
+
+/* Klasa sticky jest dodawana do nagłówka za pomocą JS, gdy osiągnie on pozycję przewijania */
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%
+}
+
+/* Dodaj trochę górnego paddingu do zawartości strony, aby zapobiec nagłym szybkim ruchom (ponieważ nagłówek otrzymuje nową pozycję na górze strony (position:fixed i top:0) */
+.sticky+.content {
+	padding-top: 102px;
+}
+
+#koty1 {
+	background-color: #006063;
+}
+
+#koty2 {
+	background-color: #005864;
+}
+
+article {
+	background-color: #205060;
+}
+
+footer {
+	text-align: center;
+	padding: 8px 16px;
+	background: #2F4858;
+	color: #f1f1f1;
+}
